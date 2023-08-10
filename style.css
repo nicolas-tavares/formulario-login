@@ -1,13 +1,15 @@
 :root{
-    --cor-preta: #2e274f;
-    --cor-preta2: #24192e;
+    --cor-roxa: #24192e;
     --cor-input: #2b2538;
     --cor-fonte: #CBD0F7;
     --cor-botao: #6934cc;
 }
 
 body{
-    background-color: var(--cor-preta);
+    background-image: url(papel-de-parede.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
@@ -25,7 +27,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--cor-preta2);
+    background-color: var(--cor-roxa);
     height: 320px;
     width: 355px;
     padding: 35px;
